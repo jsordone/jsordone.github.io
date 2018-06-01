@@ -4,5 +4,42 @@ html {
     background: url("images/background.jpg") no-repeat;
 }
 body {
-    background-color: white;
+    max-width: 600px;
+    margin: auto;
 }
+
+#content {
+    background: linear-gradient(#f2f2f2, white) no-repeat;
+    color: black;
+    padding-bottom: 500px;
+}
+
+/* Top Navigation Bar */
+.topnav {
+    overflow: hidden;
+    background-color: #f2f2f2;
+    margin: auto;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  /* Overide the style for the home button */
+  .topnav a:first-child {
+    float: left;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #333;
+    color: #f2f2f2;
+  }
